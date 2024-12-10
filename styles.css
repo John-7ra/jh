@@ -1,0 +1,149 @@
+/* Estilos generales del panel */
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #faf3e0; /* Fondo cálido, inspirado en tonos naturales */
+    color: #333; /* Texto en un gris oscuro */
+}
+
+/* Estilos generales del encabezado */
+header {
+    background-color: #e8dcc2; /* Fondo beige claro */
+    color: #6d4c41; /* Marrón oscuro */
+    padding: 20px 0;
+    text-align: left; /* Alineamos el texto a la izquierda */
+    position: relative; /* Necesario para la alineación */
+}
+
+header .logo img {
+    width: 60px; /* Ajusta el tamaño de la imagen */
+    height: auto;
+    margin-left: 20px; /* Margen a la izquierda para alejar la imagen del borde */
+    float: left; /* Alinea la imagen a la izquierda */
+    margin-right: 20px; /* Espacio entre la imagen y el texto */
+}
+
+header h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 3rem;
+    color: #6d4c41; /* Marrón oscuro */
+    display: inline-block; /* Asegura que el texto esté en línea con la imagen */
+    margin-top: 0;
+}
+
+header .tienda-muebles {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    color: #8d6e63; /* Marrón más claro */
+    display: inline-block; /* Asegura que el texto esté en línea con la imagen */
+    margin-left: 10px; /* Espacio entre el título y el subtítulo */
+}
+
+/* Estilo del pie de página */
+footer {
+    background-color: #6d4c41; /* Marrón oscuro */
+    color: white;
+    padding: 20px 0;
+}
+
+footer a {
+    color: #ffdf80; /* Amarillo cálido */
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ffe0b2; /* Amarillo más suave */
+}
+
+/* Tarjetas */
+.card {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border: none;
+    border-radius: 12px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+    background-color: #fff8e1; /* Fondo crema */
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Eleva la tarjeta */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card:active {
+    transform: scale(0.98); /* Pequeño efecto de pulsación */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 2px solid #d7ccc8; /* Línea suave entre imagen y contenido */
+}
+
+.card-body {
+    text-align: center;
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #6d4c41; /* Marrón oscuro */
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #8d6e63; /* Marrón más claro */
+}
+
+/* Contenedor principal */
+#contenedor {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff8e1; /* Fondo crema */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+}
+
+/* Tabla */
+table#table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table#table th, table#table td {
+    text-align: left;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+table#table th {
+    background-color: #e8dcc2; /* Beige claro */
+    color: #6d4c41; /* Marrón oscuro */
+}
+
+/* Paginación */
+#contenedor div a {
+    color: #6d4c41;
+    text-decoration: none;
+    margin: 0 5px;
+    font-weight: bold;
+}
+
+#contenedor div a:hover {
+    color: #8d6e63;
+}
+
+/* Estilos para el ícono de inicio */
+.home-icon {
+    width: 40px; /* Ajusta el tamaño del ícono */
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.home-icon:hover {
+    transform: scale(1.1); /* Pequeño aumento al pasar el cursor */
+}
