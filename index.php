@@ -1,0 +1,544 @@
+
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+	<title>Sayluhome tienda de muebles</title>
+	<!-- meta-tags -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8" />
+	<meta name="keywords" content="In Home Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+	<script>
+		addEventListener("load", function () {
+			setTimeout(hideURLbar, 0);
+		}, false);
+
+		function hideURLbar() {
+			window.scrollTo(0, 1);
+		}
+	</script>
+	<!-- //meta-tags -->
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<!-- font-awesome -->
+	<link href="css/font-awesome.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/chocolat.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" property="" />
+	<!-- Flexslider-CSS -->
+	<!-- //Gallery Css -->
+	<!-- fonts -->
+	<link href="//fonts.googleapis.com/css?family=Great+Vibes&amp;subset=latin-ext" rel="stylesheet">
+	<link href="//fonts.googleapis.com/css?family=Josefin+Sans:100,100i,300,300i,400,400i,600,600i,700,700i&amp;subset=latin-ext,vietnamese"
+	    rel="stylesheet">
+	<link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+</head>
+
+<body>
+	<!-- header -->
+	<div class="header">
+		<div class="content white">
+			<nav class="navbar navbar-default">
+				<div class="container">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="logo" href="index.html">
+							<h1>
+								Sayluhome
+								<span>Tienda de muebles</span>
+							</h1>
+						</a>
+					</div>
+					<!--/.navbar-header-->
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<nav class="link-effect-2" id="link-effect-2">
+							<ul class="nav navbar-nav">
+								<li class="active">
+									<a href="index.html" class="effect-3">Inicio</a>
+								</li>
+								<li>
+									<a href="#about" class="scroll">Productos</a>
+								</li>
+								
+								<li class="dropdown">
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown">Páginas
+										<b class="caret"></b>
+									</a>
+									<ul class="dropdown-menu agile_short_dropdown">
+										<li>
+											<a href="#popular" class="scroll">Popular</a>
+										</li>
+										
+									</ul>
+								</li>
+								<li>
+									<a href="#projects" class="effect-3 scroll">Proyectos</a>
+								</li>
+								
+								<li>
+									<a href="#login-register" class="effect-3 scroll">Ingresar</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<!--/.navbar-collapse-->
+					<!--/.navbar-->
+				</div>
+			</nav>
+		</div>
+	</div>
+
+	<!-- banner -->
+	<div id="myCarousel" class="carousel slide" data-ride="carousel">
+		<!-- Indicators -->
+		<ol class="carousel-indicators">
+			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			<li data-target="#myCarousel" data-slide-to="1" class=""></li>
+			<li data-target="#myCarousel" data-slide-to="2" class=""></li>
+			<li data-target="#myCarousel" data-slide-to="3" class=""></li>
+		</ol>
+		<div class="carousel-inner" role="listbox">
+			<div class="item active">
+				<div class="container">
+					<div class="carousel-caption">
+						<h6>Bienvenido
+							<span>a casa</span>
+						</h6>
+						<h3>Renovación
+							<span> con clase</span>
+						</h3>
+					</div>
+				</div>
+			</div>
+			<div class="item item2">
+				<div class="container">
+					<div class="carousel-caption">
+						<h6>Bienvenido
+							<span>a casa</span>
+						</h6>
+						<h3>
+							<span>Decoración</span> a tu estilo
+						</h3>
+					</div>
+				</div>
+			</div>
+			<div class="item item3">
+				<div class="container">
+					<div class="carousel-caption">
+						<h6>Bienvenido
+							<span>a casa</span>
+						</h6>
+						<h3>Renovación
+							<span> con clase</span>
+						</h3>
+					</div>
+				</div>
+			</div>
+			<div class="item item4">
+				<div class="container">
+					<div class="carousel-caption">
+						<h6>Bienvenido
+							<span>a casa</span>
+						</h6>
+						<h3>
+							<span>Decoración </span> a tu estilo
+						</h3>
+					</div>
+				</div>
+			</div>
+		</div>
+		<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+			<span class="fa fa-chevron-left" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		</a>
+		<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+			<span class="fa fa-chevron-right" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		</a>
+		<!-- The Modal -->
+	</div>
+	<!--//banner -->
+
+	<!-- about -->
+	<div class="about" id="about">
+		<div class="container">
+			<div class="col-md-6 about-left">
+				<div class="col-xs-6 aboutimg-w3l aboutimg-w3l2">
+					<img src="images/ab1.jpg" alt="image" />
+					<img src="images/ab2.jpg" alt="image" />
+				</div>
+				<div class="col-xs-6 aboutimg-w3l">
+					<img src="images/ab3.jpg" alt="image" />
+					<img src="images/ab4.jpg" alt="image" />
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="col-md-6 about_right">
+				<h3>Transforma Tu Hogar con Nuestros Muebles de Calidad</h3>
+				<h3 class="bold">Para tu casa </h3>
+				<p>Descubre nuestros muebles de calidad, diseñados para transformar tu hogar en un espacio acogedor y elegante. ¡Visítanos y encuentra la pieza perfecta para ti!</p>
+
+				
+			</div>
+			
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+	<!-- //about -->
+
+	<!-- popular -->
+	<div class="popular-w3" id="popular">
+		<div class="container">
+			<h3 class="title">Más populares</h3>
+			<div class="popular-grids">
+				<div class="col-md-4 popular-grid">
+					<img src="images/s1.jpg" class="img-responsive" alt="" />
+					<div class="popular-text">
+						<h5>Muebles a tu medida</h5>
+						<div class="detail-bottom">
+							<p>Transformamos tus ideas en muebles únicos, diseñados a tu medida y estilo para que cada rincón de tu hogar refleje tu personalidad.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 popular-grid">
+					<img src="images/s3.jpg" class="img-responsive" alt="" />
+					<div class="popular-text sec">
+						<h5>Muebles excluisivos</h5>
+						<div class="detail-bottom">
+							<p>Descubre el lujo y la autenticidad en cada pieza: muebles exclusivos diseñados para destacar en cualquier espacio.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 popular-grid">
+					<img src="images/s2.jpg" class="img-responsive" alt="" />
+					<div class="popular-text">
+						<h5>Muebles multifuncionales</h5>
+						<div class="detail-bottom">
+							<p>Optimiza cada rincón de tu hogar con muebles multifuncionales: versatilidad y estilo en un solo diseño.</p>
+						</div>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
+	<!-- //popular -->
+
+	<!-- Services -->
+	
+	<!-- //services -->
+
+	<!-- stats -->
+	
+	
+	<!-- //stats -->
+
+	<!-- projects -->
+	<div class="gallery" id="projects">
+		<div class="container">
+			<h3 class="title">Ultimos Proyectos</h3>
+			<div class="agile_gallery_grids w3-agile demo">
+				<div class="col-md-4 col-sm-4 col-xs-4 gal-sec">
+					<div class="gallery-grid1">
+						<a title="Ideal para tu casa" href="images/g1.jpg">
+							<img src="images/g1.jpg" alt=" " class="img-responsive" />
+							<div class="p-mask">
+								<h4>Aqua Line</h4>
+								<p> Ideal para un ambiente fresco y moderno.</p>
+								
+							</div>
+						</a>
+					</div>
+					<div class="gallery-grid1">
+						<a title="Ideal para tu casa" href="images/g2.jpg">
+							<img src="images/g2.jpg" alt=" " class="img-responsive" />
+							<div class="p-mask">
+								<h4>Sofá Armonía</h4>
+								<p>Combinación armoniosa de su diseño y materiales.</p>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-4 col-xs-4 gal-sec">
+					<div class="gallery-grid1">
+						<a title="Ideal para tu casa" href="images/gg3.jpg">
+							<img src="images/g3.jpg" alt=" " class="img-responsive" />
+							<div class="p-mask">
+								<h4>Velour</h4>
+								<p>Sofá con acabados lujosos y suaves.</p>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-4 col-xs-4 gal-sec">
+					<div class="gallery-grid1">
+						<a title="Ideal para tu casa" href="images/g4.jpg">
+							<img src="images/g4.jpg" alt=" " class="img-responsive" />
+							<div class="p-mask">
+								<h4>Essenza</h4>
+								<p>Evoca la esencia de la decoración en el hogar.</p>
+							</div>
+						</a>
+					</div>
+					<div class="gallery-grid1">
+						<a title="Ideal para tu casa" href="images/g5.jpg">
+							<img src="images/g5.jpg" alt=" " class="img-responsive" />
+							<div class="p-mask">
+								<h4>Aura </h4>
+								<p>Aporta calidez y armonía al espacio.</p>
+							</div>
+						</a>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<!-- //projects -->
+
+	<!-- login and register -->
+<!-- inicio de sesión y registro -->
+<div class="address" id="login-register">
+    <div class="container">
+        <h3 class="title">Iniciar Sesión y Registrarse</h3>
+        <div class="address-row">
+            <!-- Formulario de inicio de sesión -->
+            <div class="col-md-6 col-xs-6 address-right">
+                <div class="address-info wow fadeInRight animated" data-wow-delay=".5s">
+                    <h4>Iniciar Sesión</h4>
+                    <form action="LOGIN/valida_login.php" method="post">
+                        <input type="email" placeholder="Correo Electrónico" name="login_email" required="">
+                        <input type="password" placeholder="Contraseña" name="login_password" required="">
+                        <input type="submit" value="INICIAR SESIÓN">
+                    </form>
+										<p>
+											<a href="#" id="forgot-password-link">Olvidaste tu contraseña?</a>
+										</p>
+
+                </div>
+			<div id="forgot-password-modal" style="display: none;">
+				<div class="modal-content">
+					<h4>Recuperar Contraseña</h4>
+					<form action="recover_password.php" method="post">
+						<input type="email" placeholder="Correo Electrónico" name="recover_email" required="">
+						<input type="submit" value="ENVIAR ENLACE DE RECUPERACIÓN">
+					</form>
+					<button onclick="hideRecoverPasswordModal()">Cerrar</button>
+				</div>
+			</div>
+			</div>
+			
+          <!-- Formulario de registro -->
+<div class="col-md-6 col-xs-6 address-left wow agile fadeInLeft animated" data-wow-delay=".5s">
+    <div class="address-info">
+        <h4>Registrarse</h4>
+        <form action="register.php" method="post">
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="Nombre" name="nombre" required>
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="Apellido" name="apellido" required>
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="Teléfono" name="telefono" required>
+            </div>
+            <div class="form-group">
+                <input type="email" class="form-control" placeholder="Correo Electrónico" name="correo" required>
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="Documento" name="documento" required>
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="Dirección" name="direccion" required>
+            </div>
+            <div class="form-group">
+                <input type="password" class="form-control" placeholder="Contraseña" name="reg_password" required>
+            </div>
+            <div class="form-group">
+                <input type="password" class="form-control" placeholder="Confirmar Contraseña" name="reg_confirm_password" required>
+            </div>
+            <button type="submit" class="btn btn-primary">REGISTRARSE</button>
+        </form>
+    </div>
+</div>
+        </div>
+    </div>
+</div>
+<!-- //inicio de sesión y registro -->
+	
+	
+<script>
+	// Mostrar el modal de recuperación de contraseña
+	document.getElementById('forgot-password-link').onclick = function (event) {
+		event.preventDefault(); // Evita la redirección
+		document.getElementById('forgot-password-modal').style.display = 'block'; // Muestra el modal
+	};
+
+	// Función para ocultar el modal
+	function hideRecoverPasswordModal() {
+		document.getElementById('forgot-password-modal').style.display = 'none'; // Oculta el modal
+	}
+</script>
+<!--//login and register -->
+
+	
+
+	<!-- footer -->
+	<footer>
+		<div class="w3ls-footer-grids">
+			<div class="container">
+				<div class="col-md-3 w3l-footer one">
+					<h2>En Casa</h2>
+					<p>
+					Contar con muebles cómodos y de calidad es clave para un hogar acogedor y funcional, aportando estilo, bienestar, orden y armonía para una mejor calidad de vida..</p>
+					<div class="clearfix"></div>
+				</div>
+				
+				<div class="col-md-3 w3l-footer three">
+					<h3>Dirección</h3>
+					<ul>
+						<li>
+							<i class="fa fa-map-marker"></i>
+							<p>Sayluhome
+								<span>Tienda de muebles</span>Barrio San francisco,Tunja-Colombia .</p>
+							<div class="clearfix"></div>
+						</li>
+						<li>
+							<i class="fa fa-phone"></i>
+							<p>1234567890</p>
+							<div class="clearfix"></div>
+						</li>
+						<li>
+							<i class="fa fa-envelope-o"></i>
+							<a href="mailto:info@example.com">Sayluhome@gmail.com.com</a>
+							<div class="clearfix"></div>
+						</li>
+					</ul>
+				</div>
+				<div class="col-md-3 w3l-footer agileinfo_footer_grid">
+					<h3>Navegación</h3>
+					<div class="nav-w3-l">
+						<ul>
+							<li>
+								<a href="index.html">Inicio</a>
+							</li>
+							<li>
+								<a href="#about" class="scroll">Productos</a>
+							</li>
+							
+							<li>
+								<a href="#projects" class="scroll">Proyectos</a>
+							</li>
+							<li>
+								<a href="#login-register" class="scroll">Registrarse</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+		<div class="copy-right-grids">
+			<p class="footer-gd">© 2024 Sayluhome. Todos los Derechos Reservados | Diseño por
+				<a href="https://w3layouts.com/" target="_blank">John Rativa</a>
+			</p>
+		</div>
+	</footer>
+	
+	<!-- //footer -->
+
+
+	<!-- js files -->
+	<!-- js -->
+	<script src="js/jquery-2.2.3.min.js"></script>
+	<!-- bootstrap -->
+	<script src="js/bootstrap.js"></script>
+
+	<!--gallery -->
+	<script src="js/jquery.chocolat.js"></script>
+	<!--light-box-files -->
+	<script>
+		$(function () {
+			$('.gallery-grid1 a').Chocolat();
+		});
+	</script>
+	<!-- //gallery -->
+
+	<!-- skills -->
+	<script src="js/skill.bars.jquery.js"></script>
+	<script>
+		$(document).ready(function () {
+
+			$('.skillbar').skillBars({
+				from: 0,
+				speed: 4000,
+				interval: 100,
+				decimals: 0,
+			});
+
+		});
+	</script>
+	<!-- //skills -->
+
+	<!-- flexSlider -->
+	<script defer src="js/jquery.flexslider.js"></script>
+	<script>
+		$(window).load(function () {
+			$('.flexslider').flexslider({
+				animation: "slide",
+				start: function (slider) {
+					$('body').removeClass('loading');
+				}
+			});
+		});
+	</script>
+	<!-- //flexSlider -->
+
+	<!-- smoothscroll -->
+	<script src="js/SmoothScroll.min.js"></script>
+	<!-- //smoothscroll -->
+
+	<!-- start-smooth-scrolling -->
+	<script src="js/move-top.js"></script>
+	<script src="js/easing.js"></script>
+	<script>
+		jQuery(document).ready(function ($) {
+			$(".scroll").click(function (event) {
+				event.preventDefault();
+
+				$('html,body').animate({
+					scrollTop: $(this.hash).offset().top
+				}, 1000);
+			});
+		});
+	</script>
+	<!-- //end-smooth-scrolling -->
+
+	<!-- smooth-scrolling-of-move-up -->
+	<script>
+		$(document).ready(function () {
+			/*
+			var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+			};
+			*/
+			$().UItoTop({
+				easingType: 'easeOutQuart'
+			});
+
+		});
+	</script>
+	<!-- //smooth-scrolling-of-move-up -->
+	<!-- //js-files -->
+
+</body>
+
+</html>
